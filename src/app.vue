@@ -13,9 +13,9 @@
         <div class="bt-animation">
           <img class="animation" src="static/img/down-arrow.png" alt="" />
         </div>
-        <div v-if="browserTooOld">
+        <div v-if="browserTooOld || screenIncompat">
           <div class="browser-too-old animate__animated animate__swing">
-            对不起，您的浏览器版本过低，此功能不支持！
+            {{ this.browserTooOld ? '对不起，您的浏览器版本过低，此功能不支持！' : '对不起，当前不支持浏览，请使用手机竖屏访问！' }}
           </div>
           <div
             style="position:absolute;top:0;left:0;z-index:100;width:100vw;height:100vh;background-color:rgba(0,0,0,0.5);"
@@ -395,6 +395,7 @@ export default {
       ISWEIXIN: false,
       ISINGAME: false,
       browserTooOld: false,
+      screenIncompat: false,
       title: '麻友圈',
       chartSettings: {
         // metrics: ['访问用户', '下单用户'],
@@ -523,6 +524,9 @@ export default {
     checkViewportUnit(() => {
       this.browserTooOld = true;
     });
+    if (screen.width > 500 || innerWidth > innerHeight) {
+      this.screenIncompat = true;
+    }
   },
   methods: {
     preventSlide(e) {
