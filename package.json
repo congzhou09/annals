@@ -1,0 +1,66 @@
+{
+  "name": "annals",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "set ENV=development && webpack-dev-server --hot --progress --host 0.0.0.0 --config build/webpack.dev.conf.js",
+    "sit": "webpack --config build/webpack.sit.conf.js",
+    "build": "webpack --config build/webpack.prod.conf.js",
+    "codecheck": "eslint --ext .jsx,.js,.vue,.ts,.tsx --fix src && .\\node_modules\\.bin\\prettier --write src/**/*.{css,scss,less} --loglevel warn"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "yuancongzhou",
+  "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run codecheck"
+    }
+  },
+  "dependencies": {
+    "animate.css": "^4.1.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-dynamic-import-webpack": "^1.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "compression-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.5",
+    "css-loader": "^3.2.0",
+    "echarts": "4.2.0-rc.2",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "offline-plugin": "^5.0.7",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "style-loader": "^1.0.0",
+    "swiper": "5.2.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^2.2.0",
+    "v-charts": "^1.19.0",
+    "vue": "^2.6.10",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-loader": "^15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-merge": "^4.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^6.0.1",
+    "husky": "^3.1.0",
+    "prettier": "^1.19.1",
+    "webpack-bundle-analyzer": "^3.6.0",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
