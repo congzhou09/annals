@@ -1,7 +1,11 @@
 <!-- 年报活动页 -->
 <template>
   <div id="app">
-    <div style="position:absolute;z-index:2;background-color:cornsilk;border:1px solid;border-radius:8px;top:3px;left:3px;padding:4px;font-size:10px;opacity:0.7;">唤出vConsole: "ABCDB"</div>
+    <div
+      style="position:absolute;z-index:2;background-color:cornsilk;border:1px solid;border-radius:8px;top:3px;left:3px;padding:4px;font-size:10px;opacity:0.7;"
+    >
+      唤出vConsole: "ABCDB"
+    </div>
     <swiper :options="swiperOption" ref="mySwiper" style="overflow-y: hidden;position:fixed;width:100vw;">
       <!-- 第1页 -->
       <swiper-slide style="color: #fff;">
