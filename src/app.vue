@@ -489,7 +489,7 @@ export default {
           timeAfter5: 1538604000000
         },
         paramPageFive: {
-          keyWord: parseInt(Math.random() * 15),
+          keyWord: parseInt(Math.random() * 14),
           greeting: [
             '做人嘛，开开心心最重要啦！',
             '乐天派大概就是要这样给大家带来正能量吧！',
