@@ -259,9 +259,9 @@
     js-tokens "^4.0.0"
 
 "@babel/parser@^7.10.4", "@babel/parser@^7.11.0", "@babel/parser@^7.11.1", "@babel/parser@^7.7.0":
-  version "7.11.1"
-  resolved "https://registry.npm.taobao.org/@babel/parser/download/@babel/parser-7.11.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fparser%2Fdownload%2F%40babel%2Fparser-7.11.1.tgz#d91a387990b21e5d20047b336bb19b0553f02ff5"
-  integrity sha1-2Ro4eZCyHl0gBHsza7GbBVPwL/U=
+  version "7.20.15"
+  resolved "https://registry.npmmirror.com/@babel/parser/-/parser-7.20.15.tgz#eec9f36d8eaf0948bb88c87a46784b5ee9fd0c89"
+  integrity sha512-DI4a1oZuf8wC+oAJA9RW6ga3Zbe8RZFt7kD9i4qAspz3I/yHet1VvC3DiSy/fsUvv5pvJuNPh0LPOdCcqinDPg==
 
 "@babel/plugin-proposal-async-generator-functions@^7.10.4":
   version "7.10.5"
