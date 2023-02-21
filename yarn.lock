@@ -1866,12 +1866,10 @@ cli-width@^3.0.0:
   resolved "https://registry.npm.taobao.org/cli-width/download/cli-width-3.0.0.tgz#a2f48437a2caa9a22436e794bf071ec9e61cedf6"
   integrity sha1-ovSEN6LKqaIkNueUvwceyeYc7fY=
 
-click-password@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.npm.taobao.org/click-password/download/click-password-1.0.5.tgz#14309ced311cec5299d50f373e0badfd474c33e7"
-  integrity sha1-FDCc7TEc7FKZ1Q83Pgut/UdMM+c=
-  dependencies:
-    lodash "4.17.15"
+click-password@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npmjs.org/click-password/-/click-password-1.1.2.tgz#7f5a8e90dd84c20e53c11c1684d976e53620c765"
+  integrity sha512-dkoPsFLQJIydWGasKr/q/XgxkPhwy/JeVN/6rHXsRt8cVnSTRqTKLtplWFgHWtw3ySoqGjai37ZNoJy0gFomfg==
 
 cliui@^5.0.0:
   version "5.0.0"
@@ -4382,11 +4380,6 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.npm.taobao.org/lodash.uniq/download/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
-
-lodash@4.17.15:
-  version "4.17.15"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.15.tgz?cache=0&sync_timestamp=1594226822591&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
 
 lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.3, lodash@^4.17.5:
   version "4.17.19"
