@@ -13,6 +13,7 @@
     "type": "git",
     "url": ""
   },
+  "packageManager": "yarn@1.22.22",
   "author": "yuancongzhou",
   "license": "ISC",
   "husky": {
