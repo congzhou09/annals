@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "set ENV=development && webpack-dev-server --hot --progress --host 0.0.0.0 --config build/webpack.dev.conf.js",
     "sit": "webpack --config build/webpack.sit.conf.js",
-    "build": "webpack --config build/webpack.prod.conf.js",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && webpack --config build/webpack.prod.conf.js",
     "codecheck": "eslint --ext .jsx,.js,.vue,.ts,.tsx --fix src && .\\node_modules\\.bin\\prettier --write src/**/*.{css,scss,less} --loglevel warn"
   },
   "repository": {
